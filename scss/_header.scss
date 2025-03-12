@@ -1,0 +1,33 @@
+header {
+    background-color: $primary-bg;
+    position: sticky;
+    top: 0;
+    left: 0;
+  
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: $spacing-unit * 2 0;
+  
+      .branding {
+        img {
+          display: block;
+        }
+      }
+  
+      .menu {
+        display: flex;
+  
+        li {
+          font-weight: bold;
+          margin-left: $spacing-unit * 3;
+  
+          a {
+            color: $white;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }

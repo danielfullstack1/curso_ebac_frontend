@@ -1,0 +1,25 @@
+@import 'variables';
+@import 'header';
+@import 'products';
+@import 'media-queries';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-stack;
+}
+
+body {
+  background-color: $body-bg;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: $container-width;
+  width: 100%;
+  margin: 0 auto;
+}
