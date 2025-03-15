@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../EBAC/gulp/node_modules"
+		}
+	],
+	"settings": {}
+}
