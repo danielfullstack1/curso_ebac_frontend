@@ -1,0 +1,22 @@
+// Centralização flexível
+.flex-center(@justify: center, @align: center) {
+  display: flex;
+  justify-content: @justify;
+  align-items: @align;
+}
+
+// Botão estilizado
+.button-style(@bg, @hover-bg, @color: @colors[white]) {
+  display: block;
+  background-color: @bg;
+  color: @color;
+  text-align: center;
+  padding: @spacing-sm 0;
+  border-radius: @radius-sm;
+  margin-top: @spacing-sm;
+  text-decoration: none;
+
+  &:hover {
+    background-color: @hover-bg;
+  }
+}
